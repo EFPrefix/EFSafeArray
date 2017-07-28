@@ -1,0 +1,16 @@
+PODS:
+  - EFSafeArray (0.1.0)
+
+DEPENDENCIES:
+  - EFSafeArray (from `../`)
+
+EXTERNAL SOURCES:
+  EFSafeArray:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EFSafeArray: 8d4c8897f1262fcaa02db6f2acd14b5c587ec975
+
+PODFILE CHECKSUM: aa1d6b316e44ec0b4c563c78552d68ecc1d1f251
+
+COCOAPODS: 1.2.1
