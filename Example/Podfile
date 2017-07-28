@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EFSafeArray_Example' do
+  pod 'EFSafeArray', :path => '../'
+
+  target 'EFSafeArray_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
