@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EFSafeArray'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EFSafeArray.'
+  s.version          = '0.0.1'
+  s.summary          = 'EFSafeArray is an extension to make Array subscript safe.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+EFSafeArray is an extension to make Array subscript safe, nil will be return install of crash if index is out of range.
                        DESC
 
   s.homepage         = 'https://github.com/EyreFree/EFSafeArray'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'EyreFree' => 'eyrefree@eyrefree.org' }
   s.source           = { :git => 'https://github.com/EyreFree/EFSafeArray.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/EyreFree777'
 
   s.ios.deployment_target = '8.0'
 
