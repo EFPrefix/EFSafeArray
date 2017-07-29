@@ -2,10 +2,6 @@
 import Foundation
 
 // ~
-precedencegroup EFSafe {
-    lowerThan: AssignmentPrecedence
-}
-
 postfix operator ~ 
 public postfix func ~ (value: Int?) -> EFSafeInt? {
     return EFSafeInt(value: value)
