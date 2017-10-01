@@ -1,9 +1,15 @@
-# EFSafeArray
+![](https://raw.githubusercontent.com/EyreFree/EFSafeArray/master/assets/EFSafeArray.png)
 
-[![CI Status](http://img.shields.io/travis/EyreFree/EFSafeArray.svg?style=flat)](https://travis-ci.org/EyreFree/EFSafeArray)
-[![Version](https://img.shields.io/cocoapods/v/EFSafeArray.svg?style=flat)](http://cocoapods.org/pods/EFSafeArray)
-[![License](https://img.shields.io/cocoapods/l/EFSafeArray.svg?style=flat)](http://cocoapods.org/pods/EFSafeArray)
-[![Platform](https://img.shields.io/cocoapods/p/EFSafeArray.svg?style=flat)](http://cocoapods.org/pods/EFSafeArray)
+<p align="center">
+<a href="https://travis-ci.org/EyreFree/EFSafeArray"><img src="http://img.shields.io/travis/EyreFree/EFSafeArray.svg"></a>
+<a href="http://cocoapods.org/pods/EFSafeArray"><img src="https://img.shields.io/cocoapods/v/EFSafeArray.svg?style=flat"></a>
+<a href="http://cocoapods.org/pods/EFSafeArray"><img src="https://img.shields.io/cocoapods/p/EFSafeArray.svg?style=flat"></a>
+<a href="https://github.com/apple/swift"><img src="https://img.shields.io/badge/language-swift-orange.svg"></a>
+<a href="https://raw.githubusercontent.com/EyreFree/EFSafeArray/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/EFSafeArray.svg?style=flat"></a>
+<a href="https://twitter.com/EyreFree777"><img src="https://img.shields.io/badge/twitter-@EyreFree777-blue.svg?style=flat"></a>
+<a href="http://weibo.com/eyrefree777"><img src="https://img.shields.io/badge/weibo-@EyreFree-red.svg?style=flat"></a>
+<img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
+</p>
 
 ## Example
 
@@ -11,8 +17,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- XCode 8.0+
-- Swift 3.0+
+| Version | Needs                                |
+|:--------|:-------------------------------------|
+| 0.x     | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+ |
+| 4.x     | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+ |
 
 ## Installation
 
@@ -20,7 +28,7 @@ EFSafeArray is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'EFSafeArray', '~> 0.0.1'
+pod 'EFSafeArray'
 ```
 
 ## Use
@@ -51,5 +59,7 @@ list[(-1...12)~] = [2, 3, 4, 5] // list = [2, 3, 4, 5]
 EyreFree, eyrefree@eyrefree.org
 
 ## License
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/License_icon-mit-88x31-2.svg/128px-License_icon-mit-88x31-2.svg.png)
 
 EFSafeArray is available under the MIT license. See the LICENSE file for more info.
