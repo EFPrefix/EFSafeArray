@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/EFPrefix/EFSafeArray/master/assets/EFSafeArray.png)
+![](https://raw.githubusercontent.com/EFPrefix/EFSafeArray/master/Assets/EFSafeArray.png)
 
 <p align="center">
     <a href="https://travis-ci.org/EFPrefix/EFSafeArray">
