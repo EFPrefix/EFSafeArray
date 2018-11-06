@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2863199B978E9DA92DA00AC0 /* EFSafeArray.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFSafeArray.podspec; path = ../EFSafeArray.podspec; sourceTree = "<group>"; };
+		2863199B978E9DA92DA00AC0 /* EFSafeArray.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFSafeArray.podspec; path = ../EFSafeArray.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D7DA72173DFA323DD47312D /* Pods-EFSafeArray_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFSafeArray_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFSafeArray_Example/Pods-EFSafeArray_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35E6D2319D045F6A1DD182BF /* Pods_EFSafeArray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFSafeArray_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B85A4CD33DF26723F2AF30 /* Pods-EFSafeArray_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFSafeArray_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFSafeArray_Example/Pods-EFSafeArray_Example.release.xcconfig"; sourceTree = "<group>"; };

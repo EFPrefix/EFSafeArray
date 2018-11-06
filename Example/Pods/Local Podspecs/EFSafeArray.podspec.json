@@ -3,7 +3,7 @@
   "version": "4.1.0",
   "summary": "EFSafeArray is an extension to make Array subscript safe.",
   "description": "EFSafeArray is an extension to make Array subscript safe, nil will be return install of crash if index is out of range.",
-  "homepage": "https://github.com/EyreFree/EFSafeArray",
+  "homepage": "https://github.com/EFPrefix/EFSafeArray",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,13 @@
     "EyreFree": "eyrefree@eyrefree.org"
   },
   "source": {
-    "git": "https://github.com/EyreFree/EFSafeArray.git",
+    "git": "https://github.com/EFPrefix/EFSafeArray.git",
     "tag": "4.1.0"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {
     "ios": "8.0"
   },
+  "requires_arc": true,
   "source_files": "EFSafeArray/Classes/**/*"
 }
