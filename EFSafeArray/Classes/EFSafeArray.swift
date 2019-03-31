@@ -64,7 +64,7 @@ public struct EFSafeRange {
 
 // Core
 public extension Array {
-    public subscript(index: EFSafeInt?) -> Element? {
+    subscript(index: EFSafeInt?) -> Element? {
         get {
             if let index = index?.index {
                 return (self.startIndex..<self.endIndex).contains(index) ? self[index] : nil
@@ -80,7 +80,7 @@ public extension Array {
         }
     }
 
-    public subscript(bounds: EFSafeRange?) -> ArraySlice<Element>? {
+    subscript(bounds: EFSafeRange?) -> ArraySlice<Element>? {
         get {
             if let range = bounds?.range {
                 return self[range.clamped(to: self.startIndex ..< self.endIndex)]
