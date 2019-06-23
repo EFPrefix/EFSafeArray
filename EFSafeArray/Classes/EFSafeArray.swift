@@ -73,7 +73,7 @@ public extension Array {
         }
         set {
             if let index = index?.index, let newValue = newValue {
-                if (self.startIndex..<self.endIndex).contains(index) {
+                if (self.startIndex ..< self.endIndex).contains(index) {
                     self[index] = newValue
                 }
             }
