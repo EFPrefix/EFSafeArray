@@ -2,6 +2,12 @@
 
 -----
 
+## [5.1.0](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.1.0) (2019-06-23)
+
+* Support macOS & watchOS & tvOS.
+
+---
+
 ## [5.0.0](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.0.0) (2019-03-31)
 
 * Upgrade to Swift 5.0.
@@ -9,8 +15,6 @@
 ---
 
 ## [4.1.0](https://github.com/EFPrefix/EFSafeArray/releases/tag/4.1.0) (2018-11-06)
-
-#### Add
 
 * Upgrade to Swift 4.2.
 
@@ -24,4 +28,4 @@
 
 ## [0.0.1](https://github.com/EFPrefix/EFSafeArray/releases/tag/0.0.1) (2017-07-29)
 
-First public release.
+* First public release.

@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
     s.name             = 'EFSafeArray'
-    s.version          = '5.0.1'
+    s.version          = '5.1.0'
     s.summary          = 'EFSafeArray is an extension to make Array subscript safe.'
     
     s.description      = <<-DESC
-    EFSafeArray is an extension to make array subscript safe, nil will be return install of crash if index is out of range.
+    EFSafeArray is an extension to make array subscript safe, nil will be return instead of crash if index is out of range.
     DESC
     
     s.homepage         = 'https://github.com/EFPrefix/EFSafeArray'

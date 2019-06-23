@@ -1,5 +1,5 @@
 PODS:
-  - EFSafeArray (5.0.0)
+  - EFSafeArray (5.1.0)
 
 DEPENDENCIES:
   - EFSafeArray (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EFSafeArray: 203c06a6f48316089e626d46bf248935c10c92f9
+  EFSafeArray: 28676df1434a098d276aad11a7ded9dcb79253f1
 
 PODFILE CHECKSUM: 92139f73cf04f19b713f0f2e2a879530434bbd38
 

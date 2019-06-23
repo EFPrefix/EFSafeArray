@@ -28,22 +28,23 @@
     </a>
 </p>
 
+EFSafeArray is an extension to make array subscript safe, nil will be return instead of crash if index is out of range, it works on `iOS`, `macOS`, `watchOS` and `tvOS`.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
-| Version | Needs                                                         |
-|:---------|:-------------------------------------------------|
-| 0.x        | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+   |
-| 4.x        | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+   |
-| 5.x        | XCode 10.2+<br>Swift 5.0+<br>iOS 8.0+ |
+| Version | Needs                                                                           |
+|:--------|:--------------------------------------------------------------------------------|
+| 0.x     | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+                                            |
+| 4.x     | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+                                            |
+| 5.x     | XCode 10.2+<br>Swift 5.0+<br>iOS 8.0+ / macOS 10.11+ / tvOS 9.0+ / watchOS 2.0+ |
 
 ## Installation
 
-EFSafeArray is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+EFSafeArray is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'EFSafeArray'
