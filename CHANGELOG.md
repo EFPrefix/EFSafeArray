@@ -2,6 +2,13 @@
 
 -----
 
+## [5.1.1](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.110) (2019-10-09)
+
+* Support SPM;
+* Support Carthage.
+
+---
+
 ## [5.1.0](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.1.0) (2019-06-23)
 
 * Support macOS & watchOS & tvOS.
