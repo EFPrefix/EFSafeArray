@@ -1,6 +1,0 @@
-framework module EFSafeArray {
-  umbrella header "EFSafeArray-umbrella.h"
-
-  export *
-  module * { export * }
-}

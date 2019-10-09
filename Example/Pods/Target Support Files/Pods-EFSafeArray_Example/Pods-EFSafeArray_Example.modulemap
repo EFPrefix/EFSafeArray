@@ -1,6 +1,0 @@
-framework module Pods_EFSafeArray_Example {
-  umbrella header "Pods-EFSafeArray_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
