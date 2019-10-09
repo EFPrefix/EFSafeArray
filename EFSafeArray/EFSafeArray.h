@@ -26,5 +26,5 @@
 
 @import Foundation;
 
-FOUNDATION_EXPORT double EFQRCodeVersionNumber;
-FOUNDATION_EXPORT const unsigned char EFQRCodeVersionString[];
+FOUNDATION_EXPORT double EFSafeArrayVersionNumber;
+FOUNDATION_EXPORT const unsigned char EFSafeArrayVersionString[];
