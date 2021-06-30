@@ -7,7 +7,7 @@
     <a href="https://github.com/Carthage/Carthage/">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat">
     </a>
-    <a href="https://swift.org/package-manager/">
+    <a href="https://swiftpackageindex.com/EFPrefix/EFSafeArray">
         <img src="https://img.shields.io/badge/SPM-ready-orange.svg">
     </a>
     <a href="http://cocoapods.org/pods/EFSafeArray">
@@ -50,10 +50,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
+
 EFSafeArray is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'EFSafeArray'
+```
+
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the Swift compiler.
+
+Once you have your Swift package set up, adding EFSafeArray as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/EFPrefix/EFSafeArray.git", .upToNextMinor(from: "5.1.2"))
+]
 ```
 
 ## Use
