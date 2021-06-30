@@ -34,7 +34,7 @@ let package = Package(
         .library(name: "EFSafeArray", targets: ["EFSafeArray"])
     ],
     targets: [
-        .target(name: "EFSafeArray", path: "EFSafeArray")
+        .target(name: "EFSafeArray", path: "EFSafeArray", exclude: ["Info.plist", "Info-tvOS.plist"])
     ],
     swiftLanguageVersions: [.v5]
 )
