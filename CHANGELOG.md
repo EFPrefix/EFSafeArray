@@ -2,6 +2,12 @@
 
 -----
 
+## [5.1.3](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.1.3) (2022-11-13)
+
+* Update deployment_target to meet xcode requirements.
+
+---
+
 ## [5.1.2](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.1.2) (2021-06-30)
 
 * Fix SPM.
