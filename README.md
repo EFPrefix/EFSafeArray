@@ -1,9 +1,6 @@
 ![](https://raw.githubusercontent.com/EFPrefix/EFSafeArray/master/Assets/EFSafeArray.png)
 
 <p align="center">
-    <a href="https://travis-ci.org/EFPrefix/EFSafeArray">
-    	<img src="http://img.shields.io/travis/EFPrefix/EFSafeArray.svg">
-    </a>
     <a href="https://github.com/Carthage/Carthage/">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat">
     </a>
@@ -22,13 +19,6 @@
     <a href="https://raw.githubusercontent.com/EFPrefix/EFSafeArray/master/LICENSE">
     	<img src="https://img.shields.io/cocoapods/l/EFSafeArray.svg?style=flat">
     </a>
-    <a href="https://twitter.com/EyreFree777">
-    	<img src="https://img.shields.io/badge/twitter-@EyreFree777-blue.svg?style=flat">
-    </a>
-    <a href="http://weibo.com/eyrefree777">
-    	<img src="https://img.shields.io/badge/weibo-@EyreFree-red.svg?style=flat">
-    </a>
-    <img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
 </p>
 
 EFSafeArray is an extension to make array subscript safe, nil will be return instead of crash if index is out of range, it works on `iOS`, `macOS`, `watchOS` and `tvOS`.
@@ -63,7 +53,7 @@ Once you have your Swift package set up, adding EFSafeArray as a dependency is a
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/EFPrefix/EFSafeArray.git", .upToNextMinor(from: "5.1.2"))
+    .package(url: "https://github.com/EFPrefix/EFSafeArray.git", .upToNextMinor(from: "5.1.4"))
 ]
 ```
 

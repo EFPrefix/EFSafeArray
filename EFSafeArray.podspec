@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'EFSafeArray'
-    s.version          = '5.1.3'
+    s.version          = '5.1.4'
     s.summary          = 'EFSafeArray is an extension to make Array subscript safe.'
     
     s.description      = <<-DESC

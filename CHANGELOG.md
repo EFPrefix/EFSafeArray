@@ -2,6 +2,12 @@
 
 -----
 
+## [5.1.4](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.1.4) (2023-07-23)
+
+- Fix `Package.swift`.
+
+---
+
 ## [5.1.3](https://github.com/EFPrefix/EFSafeArray/releases/tag/5.1.3) (2022-11-13)
 
 * Update deployment_target to meet xcode requirements.
