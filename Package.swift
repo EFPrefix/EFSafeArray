@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:6.0
 //
 //  Package.swift
 //  EFSafeArray
@@ -29,12 +29,12 @@ import PackageDescription
 
 let package = Package(
     name: "EFSafeArray",
-    platforms: [.iOS(.v11), .macOS(.v10_13), .tvOS(.v11), .watchOS(.v6)],
+    platforms: [.iOS(.v12), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v6), .visionOS(.v1)],
     products: [
         .library(name: "EFSafeArray", targets: ["EFSafeArray"])
     ],
     targets: [
         .target(name: "EFSafeArray", path: "EFSafeArray", exclude: ["Info.plist", "Info-tvOS.plist"])
     ],
-    swiftLanguageVersions: [.v5]
+    swiftLanguageVersions: [.v6]
 )

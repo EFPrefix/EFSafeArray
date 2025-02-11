@@ -29,11 +29,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-| Version | Needs                                                                           |
-|:--------|:--------------------------------------------------------------------------------|
-| 0.x     | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+                                            |
-| 4.x     | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+                                            |
-| 5.x     | XCode 10.2+<br>Swift 5.0+<br>iOS 8.0+ / macOS 10.11+ / tvOS 9.0+ / watchOS 2.0+ |
+- Xcode 16+
+- Swift 6.0+
 
 ## Installation
 
@@ -53,7 +50,7 @@ Once you have your Swift package set up, adding EFSafeArray as a dependency is a
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/EFPrefix/EFSafeArray.git", .upToNextMinor(from: "5.1.4"))
+    .package(url: "https://github.com/EFPrefix/EFSafeArray.git", .upToNextMinor(from: "6.0.0.0"))
 ]
 ```
 
