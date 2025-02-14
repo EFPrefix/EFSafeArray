@@ -2,7 +2,7 @@
 
 -----
 
-## [6.0.0.0](https://github.com/EFPrefix/EFFoundation/releases/tag/6.0.0.0) (2025-02-12)
+## [6.0.0.0](https://github.com/EFPrefix/EFSafeArray/releases/tag/6.0.0.0) (2025-02-12)
 
 - Adapt to Swift 6.0.
 
